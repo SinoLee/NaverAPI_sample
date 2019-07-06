@@ -1,0 +1,13 @@
+
+# source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+# platform :ios, '12.0' # Cocoa Lumber Jack
+# You need to set target when you use CocoaPods 1.0.0 or later.
+
+
+target 'NaverAPI_sample' do
+  use_frameworks!
+  pod 'Alamofire'
+  pod 'naveridlogin-sdk-ios' 
+
+end
